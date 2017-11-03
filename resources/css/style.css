@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
@@ -117,6 +117,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/capstone-1/solution/resources/images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -124,12 +128,15 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  position: relative;
+  top: 170px;
+  left: 100px;
 }
 
 #sign-up-cta .content {
   width: 25.625rem;
   margin-top: 2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   line-height: 1.4;
   color: white;
@@ -243,6 +250,9 @@ header .mobile {
   color: #4a4a4a;
 }
 
+.image-container img {
+    max-width: 100%;
+}
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
